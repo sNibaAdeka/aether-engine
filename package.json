@@ -1,0 +1,35 @@
+{
+  "name": "aether",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AETHER — photorealistic procedural open world on three.js / WebGPU",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "shot": "tsx scripts/screenshot.ts",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.19.3",
+    "comlink": "^4.4.2",
+    "lil-gui": "^0.21.0",
+    "stats-gl": "^4.2.3",
+    "three": "^0.185.1",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/three": "^0.185.1",
+    "@webgpu/types": "^0.1.71",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3",
+    "vitest": "^4.1.10"
+  }
+}

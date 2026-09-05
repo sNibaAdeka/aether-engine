@@ -1,0 +1,59 @@
+{
+  "$comment": "Reference viewpoints. Every phase ends with a full run of these and a human look at the PNGs. Positions are world metres; y is up. timeOfDay is 24h decimal.",
+  "viewpoints": [
+    {
+      "name": "valley-dawn",
+      "position": [1240, 168, -820],
+      "target": [1580, 210, -340],
+      "timeOfDay": 5.6,
+      "weather": "mist",
+      "fov": 55,
+      "note": "Low sun through valley fog. Tests aerial perspective, god rays, volumetric fog, warm/cool separation."
+    },
+    {
+      "name": "mountain-noon",
+      "position": [-2100, 940, 1560],
+      "target": [-1200, 700, 2400],
+      "timeOfDay": 12.0,
+      "weather": "clear",
+      "fov": 60,
+      "note": "High-altitude overlook. Tests ridge silhouettes, snowline, texture tiling at distance, LOD continuity."
+    },
+    {
+      "name": "forest-interior",
+      "position": [420, 96, 380],
+      "target": [520, 100, 460],
+      "timeOfDay": 9.5,
+      "weather": "clear",
+      "fov": 65,
+      "note": "Inside the canopy. Tests grass density, tree LOD0, dappled light, GI in shade, contact shadows."
+    },
+    {
+      "name": "lake-shore",
+      "position": [-640, 46, -1180],
+      "target": [-260, 38, -900],
+      "timeOfDay": 16.5,
+      "weather": "clear",
+      "fov": 58,
+      "note": "Water's edge. Tests absorption gradient, caustics, shoreline foam, reflections, soft depth edge."
+    },
+    {
+      "name": "night-clear",
+      "position": [880, 320, 640],
+      "target": [1400, 380, 1100],
+      "timeOfDay": 23.2,
+      "weather": "clear",
+      "fov": 62,
+      "note": "Moonlit. Tests Purkinje shift, star field, exposure floor, that night reads as night not blue day."
+    },
+    {
+      "name": "storm",
+      "position": [160, 132, -420],
+      "target": [700, 220, -60],
+      "timeOfDay": 15.0,
+      "weather": "storm",
+      "fov": 60,
+      "note": "Rain and wind. Tests wet materials, puddles, rain particles, wind bend, desaturated grade."
+    }
+  ]
+}
